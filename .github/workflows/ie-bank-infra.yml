@@ -3,6 +3,9 @@ name: ie-bank-infra
 on:
   push:
       paths:
+        - 'parameters/**'
+        - '.github/**'
+        - 'modules/**'
         - '!scripts/**'
 
 env:
@@ -28,7 +31,14 @@ jobs:
     needs: build
     environment:
       name: 'Development'
-
+    
+      env:
+        ENV: dev
+        DBHOST: clorenzol-dbsrv-dev.postgres.database.azure.com
+        DBNAME: clorenzol-db-dev
+        FLASK_APP: app.py
+        FLASK_DEBUG: 1
+    
     steps:
 
       # Checkout code
