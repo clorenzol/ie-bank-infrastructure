@@ -20,12 +20,6 @@
         "appServiceAppName": {
             "value": "clorenzol-fe-uat"
         },
-        "azureMonitorName": {
-            "value": "clorenzol-am-uat"
-        },
-        "appInsightsName": {
-            "value": "clorenzol-ai-uat"
-        },
         "location": {
             "value": "South Central US"
         }
