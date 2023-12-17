@@ -3,28 +3,28 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "environmentType": {
-            "value": "nonprod"
+            "value": "prod"
         },
         "postgreSQLServerName": {
-            "value": "clorenzol-dbsrv-dev"
+            "value": "clorenzol-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "clorenzol-db-dev"
+            "value": "clorenzol-db-uat"
         },
         "appServicePlanName": {
-            "value": "clorenzol-asp-dev"
+            "value": "clorenzol-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "clorenzol-be-dev"
+            "value": "clorenzol-be-uat"
         },
         "appServiceAppName": {
-            "value": "clorenzol-fe-dev"
+            "value": "clorenzol-fe-uat"
         },
         "azureMonitorName": {
-            "value": "clorenzol-am-dev"
+            "value": "clorenzol-am-uat"
         },
         "appInsightsName": {
-            "value": "clorenzol-ai-dev"
+            "value": "clorenzol-ai-uat"
         },
         "location": {
             "value": "South Central US"
